@@ -1,6 +1,7 @@
 import argparse
 import random
 from datetime import datetime
+from time import sleep
 
 import pyautogui
 
