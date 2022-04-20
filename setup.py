@@ -6,7 +6,7 @@ setup(
     description='Stay awake utility script',
     author='Bartek Śmietanka',
     author_email='bartek.smietanka@gmail.com',
-    packages=find_packages(include=['src']),
+    packages=find_packages(include=['src.*']),
     install_requires=[
         'pyautogui',
     ],
