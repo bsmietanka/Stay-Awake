@@ -6,11 +6,11 @@ setup(
     description='Stay awake utility script',
     author='Bartek Śmietanka',
     author_email='bartek.smietanka@gmail.com',
-    packages=find_packages(include=['src.*']),
+    packages=find_packages(include=["stay_awake", 'stay_awake.*']),
     install_requires=[
         'pyautogui',
     ],
     entry_points={
-        'console_scripts': ['stay_awake=src:main']
+        'console_scripts': ['stay-awake=stay_awake:main']
     }
 )
